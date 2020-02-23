@@ -1,0 +1,85 @@
+{
+	"name": "vuejs-with-express",
+	"main": "server/index.js",
+	"preferGlobal": false,
+	"version": "1.0.3",
+	"description": "Example PWA + Nuxt + Vue + Axios + Express",
+	"author": {
+		"email": "TiagoDanin@outlook.com",
+		"name": "Tiago Danin",
+		"url": "https://tiagodanin.github.io"
+	},
+	"license": "MIT",
+	"keywords": [
+		"axios",
+		"express",
+		"expressjs",
+		"nuxt",
+		"nuxtjs",
+		"pwa",
+		"vue",
+		"vuejs"
+	],
+	"scripts": {
+		"start": "cross-env NODE_ENV=production nuxt",
+		"dev": "nodemon --exec nuxt",
+		"test": "xo && nuxt build",
+		"build": "nuxt build"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"private": false,
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/TiagoDanin/VueJs-with-Express.git"
+	},
+	"homepage": "https://TiagoDanin.github.io/VueJs-with-Express",
+	"bugs": {
+		"url": "https://github.com/TiagoDanin/VueJs-with-Express/issues"
+	},
+	"github": {
+		"name": "VueJs-with-Express",
+		"owner": "TiagoDanin"
+	},
+	"files": [
+		"LICENSE",
+		"README.md",
+		"api",
+		"assets",
+		"components",
+		"layouts",
+		"nuxt.config.js",
+		"package.json",
+		"pages",
+		"plugins",
+		"server"
+	],
+	"dependencies": {
+		"@nuxtjs/axios": "^5.9.5",
+		"@nuxtjs/pwa": "3.0.0-beta.20",
+		"@nuxtjs/vuetify": "^1.11.0",
+		"axios": "^0.19.2",
+		"body-parser": "1.19.0",
+		"cookie-session": "1.4.0",
+		"cross-env": "^6.0.3",
+		"express": "^4.17.1",
+		"nuxt": "^2.11.0",
+		"vue": "^2.6.10",
+		"vuetify": "2.2.14"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.2",
+		"xo": "^0.26.1"
+	},
+	"xo": {
+		"semicolon": false
+	},
+	"thanks": [
+		{
+			"name": "danijelmartinek",
+			"url": "https://github.com/danijelmartinek/nuxt.js-express-vuetify",
+			"description": "Fork/Inspiration in nuxt.js-express-vuetify"
+		}
+	]
+}
