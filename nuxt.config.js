@@ -1,13 +1,13 @@
 module.exports = {
 	head: {
-		title: 'My Awesome App',
+		title: 'Anonymous Reporting System Example',
 		meta: [
 			{charset: 'utf-8'},
 			{lang: 'en'},
 			{nativeUI: true},
 			{name: 'viewport', content: 'width=device-width, initial-scale=1'},
-			{hid: 'description', name: 'description', content: 'Nuxt.js project'},
-			{hid: 'keywords', name: 'keywords', content: 'vuejs, nuxt, javascript, tutorials, development, software'}
+			{hid: 'description', name: 'description', content: 'Anonymous Reporting System Example'},
+			{hid: 'keywords', name: 'keywords', content: 'anonymous, database, example, ifpa, mysql, report, reporting, reporting-tool, system'}
 		],
 		link: [
 			{rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'},
@@ -15,7 +15,7 @@ module.exports = {
 		]
 	},
 	manifest: {
-		name: 'My Awesome App'
+		name: 'Anonymous Reporting System Example'
 	},
 	build: {
 		// Vendor: ['axios'],
@@ -41,7 +41,7 @@ module.exports = {
 			}
 		}],
 		['@nuxtjs/axios', {
-			// BaseURL: 'http://localhost:3000'
+			BaseURL: 'http://localhost:3000'
 		}]
 		// ['@nuxtjs/pwa', { icon: false }]
 	],

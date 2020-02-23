@@ -1,9 +1,9 @@
 {
-	"name": "vuejs-with-express",
+	"name": "anonymous-reporting-system-example",
 	"main": "server/index.js",
 	"preferGlobal": false,
-	"version": "1.0.3",
-	"description": "Example PWA + Nuxt + Vue + Axios + Express",
+	"version": "0.0.1",
+	"description": "Anonymous Reporting System Example - IFPA Project - Database II",
 	"author": {
 		"email": "TiagoDanin@outlook.com",
 		"name": "Tiago Danin",
@@ -11,14 +11,15 @@
 	},
 	"license": "MIT",
 	"keywords": [
-		"axios",
-		"express",
-		"expressjs",
-		"nuxt",
-		"nuxtjs",
-		"pwa",
-		"vue",
-		"vuejs"
+		"anonymous",
+		"database",
+		"example",
+		"ifpa",
+		"mysql",
+		"report",
+		"reporting",
+		"reporting-tool",
+		"system"
 	],
 	"scripts": {
 		"start": "cross-env NODE_ENV=production nuxt",
@@ -27,19 +28,19 @@
 		"build": "nuxt build"
 	},
 	"engines": {
-		"node": ">=8"
+		"node": ">=10"
 	},
 	"private": false,
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/TiagoDanin/VueJs-with-Express.git"
+		"url": "git+https://github.com/TiagoDanin/Anonymous-Reporting-System-Example.git"
 	},
-	"homepage": "https://TiagoDanin.github.io/VueJs-with-Express",
+	"homepage": "https://TiagoDanin.github.io/Anonymous-Reporting-System-Example",
 	"bugs": {
-		"url": "https://github.com/TiagoDanin/VueJs-with-Express/issues"
+		"url": "https://github.com/TiagoDanin/Anonymous-Reporting-System-Example/issues"
 	},
 	"github": {
-		"name": "VueJs-with-Express",
+		"name": "Anonymous-Reporting-System-Example",
 		"owner": "TiagoDanin"
 	},
 	"files": [
@@ -74,12 +75,5 @@
 	},
 	"xo": {
 		"semicolon": false
-	},
-	"thanks": [
-		{
-			"name": "danijelmartinek",
-			"url": "https://github.com/danijelmartinek/nuxt.js-express-vuetify",
-			"description": "Fork/Inspiration in nuxt.js-express-vuetify"
-		}
-	]
+	}
 }
